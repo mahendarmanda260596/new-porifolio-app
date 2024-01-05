@@ -1,0 +1,317 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.Header-component{
+  height: 10%;
+  background-color:#ffffff;
+  border:1px solid black;
+  padding:5px;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.heading{
+  color:#010101;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 25px;
+
+}
+
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+  background-color: gold;
+  padding:5px;
+  list-style: none;
+}
+
+.item{
+  list-style: none;
+  margin: 5px;
+  font-size: 18px;
+  margin-right: 20px;
+  border:1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  height: 23px;
+  padding: 5px;
+  font-weight: bold;
+
+}
+
+.body-container{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+
+}
+
+.show-image{
+  height: 350px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.ui-name{
+  font-size: 20px;
+  margin-left:5px;
+  color:rgb(207, 176, 1);
+  font-family: "roboto";
+  font-weight: bold;
+
+
+}
+.ui-person{
+font-size: 32px;
+  margin-left:5px;
+  font-weight: bold;
+
+}
+.ui-description{
+  font-size: 22px;
+  margin-left:5px;
+  padding: 5px;
+}
+
+.ouline-button{
+  font-family: "roboto";
+  height: 40px;
+  width: 140px;
+  background-color: #ffffff;
+  outline-color: black;
+  color:black;
+  border-radius: 15px;
+  border-width: 2px; 
+  font-size:18px ;
+  cursor: pointer;
+  margin: 5px;
+}
+.normal-button{
+   font-family: "roboto";
+  height: 40px;
+  width: 140px;
+  background-color: goldenrod;
+  outline-color: white;
+  color:white;
+  border-radius: 15px;
+  border-width: 2px; 
+  font-size:18px ;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.ui-card{
+  background-color: rgb(255, 253, 252);
+  border-radius: 15px;
+  color:black;
+  padding:10px;
+  margin-top: 35px;
+  height: 350px;
+  border-color: #ffffff;
+  border-width: 2px;
+  border:1px solid rgb(238, 230, 230);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.Add-project{
+  text-align: center;
+  font-family: "Roboto";
+  margin-top: 50px;
+  padding:10px;
+  width: 60%;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color:black;
+  background-color:#ffffff;
+  border:1px solid black;
+
+}
+
+.Add-project-container{
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 8px rgba(248, 247, 247, 0.748) ;
+  text-align: center;
+  padding: 10px;
+
+
+}
+
+.add-heading{
+text-decoration: underline;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+color:black;
+
+
+
+}
+
+.add-text{
+  background-color: white;
+  width:30%;
+  height: 35px;
+  border-radius: 8px;
+  margin-left: 5px;
+
+}
+.input-box{
+  display: flex;
+  justify-content: center;
+  padding:5px;
+  text-align: left;
+}
+
+.para{
+  font-size: 20px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.textArea{
+  width:30%;
+  height: 70px;
+  border-radius: 10px;
+}
+
+
+.project-container{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+.image{
+  height:320px;
+  width:350px;
+  border-radius: 10px;
+  
+
+}
+
+.card{
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  color:black;
+  display: flex;
+  border:1px solid black;
+width: 850px;
+height:320px;
+margin-bottom: 30px;
+padding: 10px;
+border-radius: 15px;
+
+  
+}
+.card-data{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: left;
+
+}
+
+
+.Project-name{
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+.project-text{
+   font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.project-button{
+   font-family: "roboto";
+  height: 40px;
+  width: 140px;
+  background-color: transparent;
+  outline-color: black;
+  color:black;
+  border-radius: 15px;
+  border-width: 2px; 
+  font-size:18px ;
+  cursor: pointer;
+  margin: 5px;
+}
+.project-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.Footer{
+  background-color: #40c5e7;
+  color: black;
+  height: 20%;
+}
+
+.foo-img{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: transparent;
+  margin-top: 10px;
+}
+.footer-images{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Footer{
+  text-align: center;
+    padding-bottom: 20px;
+
+
+    font-size: 15px;
+    font-family: "roboto";
+
+}
