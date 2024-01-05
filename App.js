@@ -32,20 +32,9 @@ const Header = () => {
         </nav>
 
       </>
-
-
-
-
-
-
-
-
-    </div>
+  </div>
   )
 }
-
-
-
 
 
 function App() {
