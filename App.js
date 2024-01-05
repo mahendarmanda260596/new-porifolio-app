@@ -47,19 +47,7 @@ function App() {
       <Projects />
       <Footer />
 
-      <BrowserRouter />
-
-
-
-
-
-
-
-
     </div>
-
-
-
 
   )
 }
